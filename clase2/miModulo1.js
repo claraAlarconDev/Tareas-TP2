@@ -6,7 +6,6 @@ function leerYAlmacenar (ruta){
     try{
         const data = fs.readFileSync(ruta, 'utf-8');
         console.log(data);
-        //return data;
     }catch(algunError){
         console.log(algunError);
     }
